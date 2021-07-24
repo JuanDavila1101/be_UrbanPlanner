@@ -22,6 +22,11 @@ namespace be_UrbanPlanner
     {
       _designer = "onlyJuan";
       _address = address;
+      Construct();
+    }
+
+    public void Construct()
+    {      
       _dateConstructed = DateTime.Now;
     }
 
